@@ -36,4 +36,4 @@ print("🔊 Đang tạo file audio tiếng Việt...")
 tts = gTTS(full_text_vi, lang="vi", slow=False)
 tts.save(translated_audio_path)
 
-print("✅ Xong! Có file WAV:", translated_audio_path)
+print("✅ Xong!", translated_audio_path)
