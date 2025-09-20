@@ -1,7 +1,7 @@
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 # Đường dẫn tới video gốc
-video_path = r"C:\Users\vuchi\Downloads\video.mp4"   # đổi thành tên file video của bạn
+video_path = r"..."   # đổi thành tên file video của bạn
 output_audio = "output.wav"
 
 # Mở video

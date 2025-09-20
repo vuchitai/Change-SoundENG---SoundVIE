@@ -5,12 +5,12 @@ from deep_translator import GoogleTranslator
 from gtts import gTTS
 
 # 🔹 BƯỚC 1: Khai báo đường dẫn ffmpeg.exe
-ffmpeg_path = r"C:\ffmpeg-2025-09-15-git-16b8a7805b-full_build\ffmpeg-2025-09-15-git-16b8a7805b-full_build\bin\ffmpeg.exe"
+ffmpeg_path = r"..."
 os.environ["PATH"] = os.path.dirname(ffmpeg_path) + os.pathsep + os.environ["PATH"]
 # ---- ĐƯỜNG DẪN ----
-video_path = r"C:\Users\vuchi\Downloads\video.mp4"
-audio_path = r"C:\Users\vuchi\OneDrive\Desktop\Python 10\output.wav"
-translated_audio_path = r"C:\Users\vuchi\Downloads\chemistry_vi.wav"
+video_path = r"..."
+audio_path = r"..."
+translated_audio_path = r"..."
 
 # ---- 1. TÁCH ÂM THANH ----
 print("🎵 Đang tách audio từ video...")
